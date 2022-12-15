@@ -1,15 +1,16 @@
 {
   "expo": {
-    "name": "app-doutor-online",
+    "name": "Doutor na Net",
     "slug": "app-doutor-online",
-    "version": "1.0.0",
+    "version": "1.1.0",
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#002549"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,13 +22,20 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "backgroundColor": "#3257A1"
+      },
+      "package": "com.vitordev432.appdoutoronline"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "431abd95-aea9-4089-a5b3-c293d3ccfe5e"
+      }
     }
   }
 }
